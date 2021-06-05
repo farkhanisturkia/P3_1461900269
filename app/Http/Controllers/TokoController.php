@@ -26,10 +26,10 @@ class TokoController
             'username' => $request->username,
             'password' => $request->password,
         ]);
-        return redirect('/user0236');
+        return redirect('/user0269');
     }
 
     public function tambah(){
-        return view('tambah_user0236');
+        return view('tambah_user0269');
     }
 }

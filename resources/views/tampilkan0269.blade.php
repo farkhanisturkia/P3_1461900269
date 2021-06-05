@@ -7,10 +7,8 @@
     <title>Tampilkan Semua</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-     
-    <div>
-        
+<body> 
+    <div>  
         <header>
             <h2>MENU</h2>
             <li><a class="active" href="/">Home</a></li>
@@ -18,12 +16,11 @@
             <li><a href="/user0269">user</a></li>
             <li><a href="/tambahuser0269">tambah user</a></li>
         </header>
- 
         <div class="menu-tengah">
             <div class="kotak">
 	            <h3>Data Transaksi</h3><br>
                 <center>
-                <table cellspacing='0'>
+                <table>
 		            <tr>
 			            <th>Transaksi</th>
 			            <th>nama barang</th>
