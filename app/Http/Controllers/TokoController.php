@@ -30,6 +30,6 @@ class TokoController
     }
 
     public function tambah(){
-        return view('tambah_user0269');
+        return view('tambahuser0269');
     }
 }

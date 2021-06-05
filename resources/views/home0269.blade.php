@@ -13,7 +13,6 @@
             <li><a class="active" href="/">Home</a></li>
 		    <li><a href="/tampilkan0269">tampilkan semua transaksi</a></li>
             <li><a href="/user0269">user</a></li>
-            <li><a href="/tambahuser0269">tambah user</a></li>
         </div>
     </body>
 </html>

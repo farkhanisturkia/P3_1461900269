@@ -14,12 +14,10 @@
             <li><a class="active" href="/">Home</a></li>
 		    <li><a href="/tampilkan0269">tampilkan semua transaksi</a></li>
             <li><a href="/user0269">user</a></li>
-            <li><a href="/tambahuser0269">tambah user</a></li>
         </header>
         <div class="menu-tengah">
             <div class="kotak">
-	            <h3>Data User</h3><br>
-                <a href="/tambah_user0269">TAMBAH DATA USER</a><br>
+                <a href="/tambahuser0269">TAMBAH DATA USER</a><br>
 	            <table>
 		            <tr>
                         <th>ID</th>
