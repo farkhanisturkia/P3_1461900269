@@ -10,4 +10,5 @@ Route::get('/', function () {
 
 Route::get('/tampilkan0269',[TokoController::class,'tamp_tran']);
 Route::get('/tambahuser0269', [TokoController::class, 'tambah']);
+Route::get('/user0269', [TokoController::class, 'user']);
 Route::post('/user0269/insert','App\Http\Controllers\TokoController@insert')->name('insert');

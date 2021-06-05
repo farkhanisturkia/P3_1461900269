@@ -32,4 +32,12 @@ class TokoController
     public function tambah(){
         return view('tambahuser0269');
     }
+
+    public function user(){
+        $user = DB::table('user')
+        ->get();
+
+    	return view('user0269',['user' => $user]);
+    }
+
 }
