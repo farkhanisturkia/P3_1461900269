@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tampilkan Semua</title>
+    <title>User</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-     
     <div>
-        
         <header>
             <h2>MENU</h2>
             <li><a class="active" href="/">Home</a></li>
@@ -18,29 +16,26 @@
             <li><a href="/user0269">user</a></li>
             <li><a href="/tambahuser0269">tambah user</a></li>
         </header>
- 
         <div class="menu-tengah">
             <div class="kotak">
-	            <h3>Data Transaksi</h3><br>
-                <center>
-                <table cellspacing='0'>
+	            <h3>Data User</h3><br>
+                <a href="/tambah_user0269">TAMBAH DATA USER</a><br>
+	            <table>
 		            <tr>
-			            <th>Transaksi</th>
-			            <th>nama barang</th>
-			            <th>harga barang</th>
-                        <th>nama pembeli</th>
-			            <th>alamat pembeli</th>
+                        <th>ID</th>
+			            <th>Nama</th>
+			            <th>Username</th>
+                        <th>Password</th>
 		            </tr>
-		            @foreach($transaksi as $tr)
+		            @foreach($user as $us)
 		            <tr>
-			            <td>{{ $tr->id }}</td>
-			            <td>{{ $tr->nama_barang }}</td>
-                        <td>{{ $tr->harga_barang }}</td>
-                        <td>{{ $tr->nama_pelanggan }}</td>
-                        <td>{{ $tr->alamat_pelanggan}}</td>
+                        <td>{{ $us->id }}</td>
+			            <td>{{ $us->nama }}</td>
+                        <td>{{ $us->username }}</td>
+                        <td>{{ $us->password }}</td>
 		            </tr>
 		            @endforeach
-	            </table></center>
+	            </table>
 	        </div>
         </div>
     </div>
